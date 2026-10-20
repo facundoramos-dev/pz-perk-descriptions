@@ -20,7 +20,6 @@ ships translated is used — in all 28 languages, with a single file.
 
 ```
 mods/PZPerkDescriptions/  the mod published to the Workshop
-generate.py               regenerates the tooltip patch from the game files
 workshop/listing.json     listing data: title, descriptions per language
 workshop/preview.png      cover image, 256x256
 workshop/gallery/         carousel images, 1280x720
@@ -28,6 +27,13 @@ workshop/gallery/         carousel images, 1280x720
 
 The listing images and the upload itself are handled by
 [pz-mod-toolbox](https://github.com/facundoramos-dev/pz-mod-toolbox).
+
+The tooltip patch is regenerated from the game files with the toolbox, after
+every game update:
+
+```bash
+python3 -m toolbox.generate_perks <this/repository> <game/install/path>
+```
 
 ## License
 
