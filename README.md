@@ -19,11 +19,11 @@ ships translated is used — in all 28 languages, with a single file.
 ## Layout
 
 ```
-mods/PZPerkDescriptions/    the mod published to the Workshop
-generate.py                 regenerates the tooltip patch from the game files
-workshop/listing.json        listing data: title, descriptions per language
-workshop/preview.png       cover image, 256x256
-workshop/gallery/          carousel images, 1280x720
+mods/PZPerkDescriptions/  the mod published to the Workshop
+generate.py               regenerates the tooltip patch from the game files
+workshop/listing.json     listing data: title, descriptions per language
+workshop/preview.png      cover image, 256x256
+workshop/gallery/         carousel images, 1280x720
 ```
 
 The listing images and the upload itself are handled by
