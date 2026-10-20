@@ -18,7 +18,7 @@ key: a single file covers every language, because at runtime the translated
 name is inverted with the game translator.
 
 Usage:
-    python3 generar.py [path/to/server-files/media/lua/shared/Translate] [path/to/mod]
+    python3 generate.py [path/to/server-files/media/lua/shared/Translate] [path/to/mod]
 """
 import json
 import os
