@@ -2,7 +2,7 @@
   "publishedfileid": 3819208492,
   "title": "Perk Descriptions",
   "description": "[h2]Perk Descriptions[/h2]\nFixes the raw text shown when hovering a skill in the character info menu: instead of [i]IGUI_perks_Carpintería_Description[/i] you get the real skill description.\n\nIt is a vanilla bug, not a mod bug: the game builds the tooltip key by concatenating the [b]translated[/b] skill name, but only ships the descriptions under the [b]English[/b] name. In any non-English language the key does not exist and the raw key is shown instead.\n\n[b]What this mod does[/b]\nThis mod overrides [i]ISSkillProgressBar.lua[/i] and looks up the correct key at runtime. The text you see is the game's own, not a copy: if The Indie Stone improves a description, you see the improvement.\n\n[b]Coverage[/b]\n[list]\n[*]The 35 vanilla skills (Axe, Carpentry, Cooking, Sneaking…).\n[*]All 28 game languages with a single file.\n[*]Skills added by other mods keep their original behaviour.\n[/list]\n\n[b]Installation[/b]\nSubscribe and enable it. On a server, add it to [i]Mods=[/i] and to [i]WorkshopItems=[/i]. It does not need any other mod and can be removed at any time.\n\n[b]Compatibility[/b]\nBuild 42 (42.0+). Safe to add or remove mid-game. Works in single player and on dedicated servers.",
-  "changenote": "v2.0.1: el mod pasa a tener su propio repo (github.com/facundoramos-dev/pz-perk-descriptions) y la ficha queda en ingles por defecto, con las versiones en espanol cargadas desde la web del Workshop, por idioma.",
+  "changenote": "v2.1.0: the tooltip patch is now written in English. No gameplay changes.",
   "visibility": 0,
   "mods": [
     "PZPerkDescriptions"
